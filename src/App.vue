@@ -6,14 +6,22 @@
 
 <script>
 import Home from './components/Home'
-
+import Itunes from '@/components/Itunes'
+import Mytunes from '@/components/Mytunes'
 export default {
   name: 'app',
   components: {
-    Home
+    Home,
+    Itunes,
+    Mytunes
   }
 }
 </script>
 
 <style>
+#app{
+  height: 100vh;
+  width: 100vw;
+ 
+}
 </style>
